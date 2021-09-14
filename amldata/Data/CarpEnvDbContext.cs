@@ -7,14 +7,14 @@ using System.Text;
 
 namespace amldata.Data
 {
-    // source - airbyte data
-    public class ApplicationDbContext : DbContext
+    public class CarpEnvDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public CarpEnvDbContext(DbContextOptions<CarpEnvDbContext> options)
             : base(options)
         {
         }
 
-        public DbSet<AirbyteData> _airbyte_raw_ctr11 { get; set; }
+        public  DbSet<ctrdesc> CTR{ get; set; }
+
     }
 }

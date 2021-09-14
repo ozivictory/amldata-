@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Source\\Repos\\amldata\\amldata\\amldata.csproj": {}
+    "C:\\Users\\Admin\\Documents\\Triversa\\AML\\data\\data\\amldata-\\amldata\\amldata.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Source\\Repos\\amldata\\amldata\\amldata.csproj": {
+    "C:\\Users\\Admin\\Documents\\Triversa\\AML\\data\\data\\amldata-\\amldata\\amldata.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\amldata\\amldata\\amldata.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Triversa\\AML\\data\\data\\amldata-\\amldata\\amldata.csproj",
         "projectName": "amldata",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\amldata\\amldata\\amldata.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Triversa\\AML\\data\\data\\amldata-\\amldata\\amldata.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\amldata\\amldata\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Triversa\\AML\\data\\data\\amldata-\\amldata\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.15, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -83,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

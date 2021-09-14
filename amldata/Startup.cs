@@ -29,9 +29,20 @@ namespace amldata
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("SourceConnection")));
+
+            services.AddDbContext<DestinationDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DestinationConnection")));
+
+            services.AddDbContext<CarpEnvDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("CarpEnvConnection")));
+
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
